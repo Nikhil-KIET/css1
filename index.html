@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            width: 100vw;
+            height: 100vh;
+        }
+        header{
+            width: 100vw;
+            height: 200px;
+            background-color: skyblue;
+        }
+        main{
+            padding: 10px;
+            width: 60vw;
+            height: 400px;
+            background-color: yellow;
+        }
+        footer{
+            width: 100vw;
+            height: 200px;
+            background-color: green;
+        }
+        aside{
+            
+            width: 40vw;
+            height: 420px;
+            background-color: red;
+            
+            z-index: -1;
+        }
+        .cont{
+            display: flex;
+            flex-direction: row;
+        }
+        main section{
+            padding: 10px;
+            margin: 10px;
+            background-color: burlywood;
+            width: 90%;
+            height: 40%;
+        }
+        aside section{
+            width: 80%;
+            height: 40%;
+            margin: 23px;
+            background-color: maroon;
+        }
+        article{
+            margin: 10px;
+            
+            width: 80%;
+            height: 40%;
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            &lt;header&gt;
+        </header>
+        <div class="cont">
+            <main>
+                &lt;main&gt;
+
+                <section>
+                    &lt;section&gt;
+                </section>
+
+
+                <section>
+                    &lt;section&gt;
+                    <article>
+                        &lt;article&gt;
+                    </article>
+                    <article>
+                        &lt;article&gt;
+                    </article>
+    
+                </section>
+            </main>
+            <aside>
+                &lt;aside&gt;
+                <section>
+                    &lt;section&gt;
+                </section>
+                <section>
+                    &lt;section&gt;
+                </section>
+            </aside>
+        </div>
+        <footer>
+            &lt;footer&gt;
+        </footer>
+    </div>
+</body>
+</html>
